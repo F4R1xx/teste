@@ -1,0 +1,29 @@
+# Ignora a pasta de dependências do Node
+node_modules/
+
+# Logs e arquivos de relatório
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de ambiente (se você usa .env)
+.env
+
+# Chave de serviço do Firebase (ou qualquer arquivo sensível)
+serviceAccountKey.json
+
+# Ignora a pasta de build do Vercel (se for gerada localmente)
+.vercel
+
+# Ignora arquivos de cache ou temporários
+*.cache
+*.tmp
+
+# Arquivos de sistema (macOS e Windows)
+.DS_Store
+Thumbs.db
+
+# Caso use cobertura de testes (ex: Jest), ignore a pasta coverage
+coverage/
