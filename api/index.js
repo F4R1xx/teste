@@ -7,7 +7,7 @@ const express = require('express');
 
 // 1. Importa a chave da conta de serviço
 // Supondo que o arquivo "serviceAccountKey.json" esteja na raiz do projeto
-const serviceAccount = require('../serviceAccountKey.json');
+const serviceAccount = require(serviceAccountKey);
 
 // 2. Inicializa o Firebase Admin
 admin.initializeApp({
